@@ -1,11 +1,4 @@
-The provided repository contains an automated test for email sending functionality via Gmail as outlined below
-
-    1. Login to gmail
-    2. Compose and Send an email with an alert message for not having body
-    3. No verification is done in the code for any action like Login page displayed, compose email box etc 
-
-
-Your task is to implement below test case
+Problem statement
 
     1. Login to account1 on Gmail
     2. Compose an email with unique subject, body and attachment
@@ -14,11 +7,11 @@ Your task is to implement below test case
     5. Open the email
     6. Verify the subject, body and attachment name
 
-    Notes
-        1. Account details should be configurable in params.
-        2. Improve the existing code base to the best of your knowledge and expertise.
-		3. Don't include packages and additional auto generated files like node_modules.
-		4. The test should be passing
+Solutions:
+
+        1. Account details is configured in protractor.conf.js file under the project root folder.
+	2. This is a Protractor-TypeScript framework
+	3. npm package manager is used to download Protractor and other related dependencies
 
 Instructions to Run
 
@@ -28,7 +21,6 @@ Instructions to Run
         A - WebStorm - https://www.jetbrains.com/webstorm/
         B - Visual Studio Code - https://code.visualstudio.com/
 
-    3. In the root, execute following commands
+    3. In the project root, execute following commands
         1. To install all the packages - npm install
         2. To run the tests - npm run e2e
-# email-send-receive
