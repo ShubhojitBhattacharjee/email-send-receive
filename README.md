@@ -23,4 +23,6 @@ Instructions to Run
 
     3. In the project root, execute following commands
         1. To install all the packages - npm install
-        2. To run the tests - npm run e2e
+        2. To run the tests 
+		- locate the file protractor.conf.js under the project root folder and update params.use1 and params.user2 values with first and second email id and respective passwords
+		- npm run e2e
