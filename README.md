@@ -10,7 +10,7 @@ Problem statement
 Solutions:
 
         1. Account details is configured in protractor.conf.js file under the project root folder.
-	2. This is a Protractor-TypeScript framework
+	2. This is a Protractor-TypeScript framework implemented using POM design pattern
 	3. npm package manager is used to download Protractor and other related dependencies
 
 Instructions to Run
@@ -24,5 +24,5 @@ Instructions to Run
     3. In the project root, execute following commands
         1. To install all the packages - npm install
         2. To run the tests 
-		- locate the file protractor.conf.js under the project root folder and update params.use1 and params.user2 values with first and second email id and respective passwords
+		- locate the file protractor.conf.js under the project root folder and update value of params.user1 and params.user2 values with first and second Gmail id and respective passwords
 		- npm run e2e
