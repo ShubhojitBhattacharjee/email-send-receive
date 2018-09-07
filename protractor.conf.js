@@ -10,11 +10,11 @@ exports.config = {
     },
     params: {
         user1: {
-            username: "testfirstemail@gmail.com",
+            username: "account1",
             password: "xxxxxx"
         },
         user2: {
-            username: "testsecondemail@gmail.com",
+            username: "account2",
             password: "yyyyyy"
         }
     },
